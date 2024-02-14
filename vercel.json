@@ -1,9 +1,9 @@
 {
-    "version": 1,
+    "devCommand": "npm run dev",
     "build": [
         {
            "src":"app.ts",
-           "use":"@now/node"
+           "use":"@vercel/node"
         }
     ],
     "routes": [
